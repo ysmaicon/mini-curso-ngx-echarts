@@ -1,27 +1,100 @@
-# MiniCursoNgxEcharts
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
+# Mini Curso NgxECharts
 
-## Development server
+Este repositório contém o código-fonte do minicurso **"Visualização de Dados com NgxECharts"**, que tem como objetivo capacitar os participantes a criar visualizações de dados interativas e dinâmicas utilizando a biblioteca NgxECharts. Durante o curso, os alunos aprenderão desde a configuração do ambiente de desenvolvimento até a criação de gráficos avançados.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Pré-requisitos
 
-## Code scaffolding
+Antes de começar, certifique-se de ter os seguintes requisitos instalados em sua máquina:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Node.js** (recomendado: versão 14.x ou superior): [Baixar Node.js](https://nodejs.org/)
+- **npm** (Node Package Manager): Geralmente, o npm já é instalado junto com o Node.js.
+- **nvm** (Node Version Manager) - opcional, mas recomendado: Permite gerenciar múltiplas versões do Node.js. [Instalar NVM](https://github.com/nvm-sh/nvm)
+- **Angular CLI** (versão 13.3.11 ou superior): Instale globalmente usando o comando abaixo:
 
-## Build
+## Clonando o Repositório
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone o repositório para sua máquina local:
 
-## Running unit tests
+   ```bash
+   git clone https://github.com/ysmaicon/mini-curso-ngx-echarts
+   cd mini-curso-ngx-echarts
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Se você estiver utilizando o **nvm**, instale e use a versão correta do Node.js:
 
-## Running end-to-end tests
+   ```bash
+   nvm install 14
+   nvm use 14
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Instale o **Angular CLI**:
 
-## Further help
+    ```bash
+    npm install -g @angular/cli@13.3.11
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. Instale as dependências do projeto:
+
+   ```bash
+   npm install
+   ```
+
+## Servidor de Desenvolvimento
+
+Para iniciar o servidor de desenvolvimento, execute:
+
+```bash
+ng serve
+```
+
+Abra o navegador e acesse `http://localhost:4200/`. A aplicação recarregará automaticamente sempre que você fizer alterações nos arquivos fonte.
+
+## Estrutura do Projeto
+
+Este projeto foi gerado com o [Angular CLI](https://github.com/angular/angular-cli) versão 13.3.11.
+
+Alguns comandos úteis:
+
+- **Gerar um novo componente:**
+
+  ```bash
+  ng generate component nome-do-componente
+  ```
+
+- **Gerar uma nova diretiva, pipe, serviço, classe, guard, interface, enum ou módulo:**
+
+  ```bash
+  ng generate directive|pipe|service|class|guard|interface|enum|module nome
+  ```
+
+## Documentação do Angular Material
+
+Durante o minicurso, utilizaremos componentes do Angular Material para melhorar a interface do usuário das visualizações de dados. A documentação oficial do Angular Material é uma excelente referência para aprender como utilizar seus diversos componentes e diretivas.
+
+- [Documentação do Angular Material](https://material.angular.io/)
+
+## Recursos Úteis
+
+Aqui estão alguns links que serão úteis durante o minicurso:
+
+- **PokeAPI**: Uma API pública para acessar dados sobre Pokémon, que será utilizada em exemplos de visualização.
+  - [PokeAPI](https://pokeapi.co/)
+  - [Documentação GraphQL da PokeAPI](https://beta.pokeapi.co/graphql/console/)
+
+- **Documentação do ECharts**: Guia oficial para a biblioteca ECharts, com exemplos e configurações detalhadas.
+  - [ECharts Documentation](https://echarts.apache.org/en/index.html)
+
+- **Documentação do ngx-echarts**: Guia oficial para integrar ECharts com Angular usando ngx-echarts.
+  - [ngx-echarts Documentation](https://xieziyu.github.io/ngx-echarts/)
+
+## Suporte Adicional
+
+Para mais ajuda sobre o Angular CLI, utilize \`ng help\` ou consulte a [documentação oficial do Angular CLI](https://angular.io/cli).
+
+## Equipe
+
+Este projeto foi desenvolvido por:
+
+- [Gianluca Borges Mendes](https://github.com/GianlucaBorges)
+- [Ytalo Ysmaicon Gomes](https://github.com/ysmaicon)
